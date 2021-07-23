@@ -22,6 +22,7 @@ class MySolution {
             }
         }
 
+        // 双指正对撞
         int stringNum = stringBuilder.length();
         int left = 0;
         int right = stringNum - 1;
