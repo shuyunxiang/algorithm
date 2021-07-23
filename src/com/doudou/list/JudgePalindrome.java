@@ -1,17 +1,18 @@
 package com.doudou.list;
 
-public class ListAlgorithm {
+public class JudgePalindrome {
     public static void main(String[] args) {
-        MySolution mySolution = new MySolution();
-        System.out.println(mySolution.judgePalindrome("aaappaaa"));
+        boolean isPalindrome = MySolution.judgePalindrome("aaappaaa");
+
+        System.out.println(isPalindrome);
     }
 }
 
-class MySolution{
+class MySolution {
     /**
      * 回文字符串判断
      */
-    boolean judgePalindrome(String s) {
+    static boolean judgePalindrome(String s) {
         StringBuilder stringBuilder = new StringBuilder();
         int length = s.length();
         for (int i = 0; i < length; i++) {
