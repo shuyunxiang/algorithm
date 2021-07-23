@@ -2,13 +2,13 @@ package com.doudou.list;
 
 public class JudgePalindrome {
     public static void main(String[] args) {
-        boolean isPalindrome = MySolution.judgePalindrome("aaappaaa");
+        boolean isPalindrome = JudgePalindromeSolution.judgePalindrome("aaappaaa");
 
         System.out.println(isPalindrome);
     }
 }
 
-class MySolution {
+class JudgePalindromeSolution {
     /**
      * 回文字符串判断
      */
