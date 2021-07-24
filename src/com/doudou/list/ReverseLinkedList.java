@@ -9,8 +9,10 @@ public class ReverseLinkedList {
  */
 class ReverseLinkedListSolution1 {
     static ListNode reverseBetween(ListNode head) {
+        // 双指针
         ListNode prev = null;
         ListNode curr = head;
+
         while (curr != null) {
             // 取出当前结点的下一个结点
             ListNode next = curr.next;
